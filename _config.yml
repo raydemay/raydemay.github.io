@@ -1,0 +1,7 @@
+# Website settings
+title: Ray DeMay
+description: My GitHub Pages site
+github_username: raydemay
+
+# Theme
+theme: jekyll-theme-minima
