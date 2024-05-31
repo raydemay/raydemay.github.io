@@ -30,6 +30,10 @@ linkedin_username: raymond-demay
 
 # Build settings
 theme: minima
+
+minima:
+  skin: dark
+
 plugins:
   - jekyll-feed
 # Exclude from processing.
