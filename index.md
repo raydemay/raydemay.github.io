@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+Welcome to my website. This is where I plan to aggregate everything about me, from my Jamf work to my journey to become a rocket scientist.
