@@ -1,7 +1,10 @@
 ---
-layout: post
+layout: single
 title: My Resume
 permalink: /resume/
+author_profile: true
+toc: true
+classes: wide
 ---
 
 ## Profile
