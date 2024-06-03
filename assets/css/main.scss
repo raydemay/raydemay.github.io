@@ -1,0 +1,38 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+$background-color: #212325;
+$link-color: #dfe3e5;
+$primary-color: #ba0c2f;
+$link-color-hover: $primary-color;
+$link-color-visited: mix(#000, $link-color, 50%)
+
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/*
+https://github.com/mmistakes/minimal-mistakes/discussions/1219
+*/
+html {
+  font-size: 12px; // change to whatever
+
+  @include breakpoint($small) {
+    font-size: 12px; // change to whatever
+  }
+
+  @include breakpoint($medium) {
+    font-size: 14px; // change to whatever
+  }
+
+  @include breakpoint($large) {
+    font-size: 16px; // change to whatever
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 18px; // change to whatever
+  }
+}
