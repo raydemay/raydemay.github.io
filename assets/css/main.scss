@@ -16,7 +16,7 @@ $link-color-visited: mix(#000, $link-color, 50%);
 
 /*
 https://github.com/mmistakes/minimal-mistakes/discussions/1219
-*/
+
 html {
   font-size: 12px; // change to whatever
 
@@ -35,4 +35,4 @@ html {
   @include breakpoint($x-large) {
     font-size: 18px; // change to whatever
   }
-}
+}*/
