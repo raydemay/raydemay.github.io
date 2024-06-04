@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 title: >
   Swapping scripts for spaceships: A Jamf admin's journey to aerospace
 permalink: /about/
