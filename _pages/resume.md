@@ -11,8 +11,6 @@ classes: wide
 
 Aerospace Engineering graduate with 12+ years of experience in operations and systems administration, applying problem-solving skills and driving operational efficiency. Eager to leverage expertise in a challenging space industry role and contribute to the advancement of space exploration.
 
----
-
 ## Education
 
 **The Ohio State University – Bachelor of Science in Aerospace Engineering**
@@ -20,8 +18,6 @@ Aerospace Engineering graduate with 12+ years of experience in operations and sy
 - Graduated May 2024
 - Summa cum laude (3.95 GPA)
 - Tau Beta Pi and Sigma Gamma Tau
-
----
 
 ## Experience
 
@@ -56,8 +52,6 @@ Help Desk Technician, Office of the Chief Information Officer\
 - Trained new help desk staff and student employees
 - Wrote documentation for new and established procedures and technologies, including over 100 knowledge base articles
 - Modeled process workflows in Microsoft Visio
-
----
 
 ## Projects
 
