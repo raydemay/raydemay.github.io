@@ -6,4 +6,4 @@ layout: home
 author_profile: true
 ---
 
-Welcome to my website. This is where I plan to aggregate everything about me, from my Jamf work to my journey to become a rocket scientist.
+Chronicling my journey from managing Apple devices with Jamf Pro to pursuing a career in aerospace engineering. Join me as I explore the intersection of technology, space, and personal growth.
