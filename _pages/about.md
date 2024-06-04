@@ -1,10 +1,9 @@
 ---
 layout: single
-title: My Story
+title: >
+  Swapping scripts for spaceships: A Jamf admin's journey to aerospace
 permalink: /about/
 ---
-
-# Swapping scripts for spaceships: A Jamf admin's journey to aerospace
 
 I've always had a knack for solving complex problems and making intricate systems run smoothly – skills I honed as an IT administrator. But my true passion lies in reaching for the stars, which is why I'm making the leap into aerospace engineering.
 
