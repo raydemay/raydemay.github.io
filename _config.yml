@@ -27,6 +27,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 locale: "en-US"
 timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+analytics:
+  provider: custom
 
 # Build settings
 theme: minimal-mistakes-jekyll
