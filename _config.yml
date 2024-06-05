@@ -169,8 +169,9 @@ defaults:
       author_profile: true
       read_time: false
       comments: false
-      share: true
+      share: false
       related: true
+  # _pages
   - scope:
       path: ""
       type: pages
