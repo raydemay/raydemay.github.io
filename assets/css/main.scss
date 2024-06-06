@@ -5,10 +5,10 @@ search: false
 
 @charset "utf-8";
 $background-color: #212325;
-$link-color: #dfe3e5;
+$link-color: #bfc6cb;
 $primary-color: #ba0c2f;
 $link-color-hover: $primary-color;
-$link-color-visited: mix(#000, $link-color, 50%);
+$link-color-visited: #868e92;
 
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
