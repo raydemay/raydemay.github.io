@@ -25,6 +25,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   A personal blog where I share my passion for technology, space exploration, and the exciting transition from IT to aerospace engineering. Expect a mix of technical insights, career updates, and personal reflections.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+teaser: "assets/images/default-image.jpeg"
+enable_copy_code_button: true
 locale: "en-US"
 timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 analytics:
