@@ -14,6 +14,8 @@ tags:
   - engineering
 ---
 
+This is based on a document that I typed up to show our primary sponsor about the CFD analysis that I did on the Buckeye Current RW-5 faired motorcycle design.
+
 # Setup
 
 The Ansys Workbench workflow is based on a process that Formula Buckeye has used for their CFD analysis with some changes to mesh settings and solution method.
