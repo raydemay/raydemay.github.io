@@ -5,7 +5,7 @@ title: "802.1X Device Authentication with Jamf Pro and HPE Aruba ClearPass"
 header:
   teaser: assets/images/default-image.jpeg
 excerpt: "Implementing 802.1X device authentication in Jamf Pro with HPE Aruba ClearPass"
-date: 2024-11-09 20:15:00 -0500
+date: 2024-11-09 15:25:00 -0500
 categories:
   - Career
   - Mac Admin
