@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 title: "Millennial in the Classroom: Navigating College in Your 30s (and Making It Work!)"
 excerpt: "How do you do, fellow engineering students?"
 read_time: true
