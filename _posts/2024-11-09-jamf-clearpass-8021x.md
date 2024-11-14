@@ -88,7 +88,19 @@ The SQL query that enables authentication and authorization without MAC Address 
 select te.attributes->>'JAMF Serial Number' as Serial_Number from tips_endpoints as te where te.attributes->>'JAMF Serial Number' = '%{Certificate:Subject-AltName-DNS}'
 ```
 
-I'm not 100% sure if there are values that are custom to our ClearPass implementation here. The documentation has all of the attributes listed as an appendix, so it shouldn't take a ton of work to get an implementation of this. There are other attributes that could be used in this query to only allow managed or supervised devices on the network, so play with this query and see what works best for your environment. Adding too many things to this query can be a performance hit, so it's important to keep it as simple as possible.
+Here are some screenshots that were provided by our network admins of how the authentication source is configured in ClearPass Policy Manager:
+
+<figure>
+  <img src="{{site.url}}/assets/images/clearpass_policy_manager_authz_source.png" alt="ClearPass Policy Manager Authentication Source Configuration">
+  <figcaption>ClearPass Policy Manager Authentication Source</figcaption>
+</figure>
+
+<figure>
+  <img src="{{site.url}}/assets/images/cpm_auth_attributes.png" alt="ClearPass Policy Manager Authentication Source Attributes">
+  <figcaption>ClearPass Policy Manager Authentication Source Attributes</figcaption>
+</figure>
+
+The documentation has all of the attributes listed as an appendix, so it shouldn't take a ton of work to get an implementation of this. There are other attributes that could be used in this query to only allow managed or supervised devices on the network, so play with this query and see what works best for your environment. We are checking to make sure a device is properly managed and supervised in the query in the screenshots, but that might be changing in the future because it is probably not needed. Adding too many things to this query can be a performance hit, so it's important to keep it as simple as possible.
 
 ## Webhooks
 
