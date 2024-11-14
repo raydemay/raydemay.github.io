@@ -12,6 +12,7 @@ tags:
   - projects
   - cae
   - engineering
+permalink: /projects/cfd-analysis-buckeye-current-rw-5/
 ---
 
 This is based on a document that I typed up to show our primary sponsor about the CFD analysis that I did on the Buckeye Current RW-5 faired motorcycle design.
@@ -34,29 +35,23 @@ Two smaller domains were created to allow for local sizing of mesh to be more re
 
 # Mesh
 
-Fluent meshing utilized to take advantage of poly-hexcore mosaic mesh
-
-Local sizing was set to 5mm cells near model and 2m cells at the domain boundary
-
+Fluent meshing utilized to take advantage of poly-hexcore mosaic mesh<br>
+Local sizing was set to 5mm cells near model and 2m cells at the domain boundary<br>
 1.2 growth rate was used in all conditions
 
-Boundary layer
+## Boundary layer
 
-4 layers
-
+4 layers <br>
 Aspect ratio of 5
 
-3D mesh
+## 3D mesh
 
-nodes: 6742617
+nodes: 6742617<br>
+edges: 6516<br>
+faces: 16663508<br>
+cells: 5128389<br>
 
-edges: 6516
-
-faces: 16663508
-
-cells: 5128389
-
-Solution
+# Solution
 
 k-omega SST solution method with curvature correction enabled
 
@@ -73,7 +68,3 @@ Second order coupled solver
 # Results
 
 Bike has drag coefficient around 0.2. 1m^2 and 101325 Pa static pressure were used as reference values to get lift and drag coefficient. Lift coefficient is slightly negative, meaning there is some downforce. This is a large improvement from the prior revision of the fairing, which was simulated in March, where it had a lift coefficient of 0.5. I believe part of this is due to the slimming down of the geometry behind the rider.
-
-# Next Steps
-
-Three simulations are planned. The first is to run the same settings but a transient version to see changes in the flow at different time steps. The second is to run the simulation at a lower velocity. The third is to run a simulation with a crosswind component to see the behavior of the air on the back half of the fairing.

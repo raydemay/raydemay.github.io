@@ -22,7 +22,7 @@ feature_row:
     target: _blank
     btn_label: "Read More"
     btn_class: "btn--primary"
-    excerpt: "RW-5 is attempting to be the first 150kg-class electric motorcycle to achieve an average speed of over 200mph. I was part of the aerodynamics design and manufacturing. I ran CFD analysis in Fluent and assisted in the modeling of the fairings in Solidworks."
+    excerpt: "RW-5 a world-record setting 150kg-class electric motorcycle that is hoping to be the first in the class to reach 200mph. I was part of the aerodynamics design and manufacturing. I ran [CFD analysis in Fluent](/projects/cfd-analysis-buckeye-current-rw-5/) and assisted in the modeling and manufacturing of the fairings."
 feature_row_2:
   - image_path: /assets/images/rpi-adxl-breadboard.jpg
     alt: "Image of Raspberry Pi wired to breadboard containing an accelerometer"
