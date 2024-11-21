@@ -1,7 +1,7 @@
 ---
 layout: single
 classes: wide
-title: "Staggered OS Update with Nudge 2.0"
+title: "Staggered OS Updates with Nudge 2.0"
 header:
   teaser: assets/images/default-image.jpeg
 excerpt: "Nudge 2.0 can be used to stagger OS updates across a large fleet of macOS devices."
