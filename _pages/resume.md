@@ -7,10 +7,6 @@ toc: true
 classes: wide
 ---
 
-## Profile
-
-Aerospace Engineering graduate with 12+ years of experience in operations and systems administration, applying problem-solving skills and driving operational efficiency. Eager to leverage expertise in a challenging space industry role and contribute to the advancement of space exploration.
-
 ## Education
 
 **The Ohio State University – Bachelor of Science in Aerospace Engineering**
@@ -21,10 +17,31 @@ Aerospace Engineering graduate with 12+ years of experience in operations and sy
 
 ## Experience
 
+**HX5** - Cleveland, OH
+
+Aerospace Engineer III  
+2026
+
+- Engineering analyst for PPE supporting shift from Lunar Gateway to SR-1 Freedom
+- Reverse-engineered a design reference mission (DRM) to determine the attitude profile to use as an input for steerable antenna range-of-motion analysis
+- Verified GNC spacecraft bus pointing and attitude knowledge requirements against RF antenna pointing budgets to ensure mission compliance, translating external subsystem modifications into technical impact assessments
+- Modeled preliminary Martian flyby trajectories in GMAT to establish an immediate mission baseline independent of external deliverables, accelerating RF power and antenna pointing trade studies to meet critical design deadlines
+
+Aerospace Engineer II  
+2025-2026
+
+- Communications system engineering analyst for Power and Propulsion Element (PPE)
+- Developed communications coverage analysis tool with MATLAB and SPICE to provide comprehensive data about communication system performance throughout the spiral transit and during cislunar operations
+- Executed Independent Verification & Validation (IV&V) for communication subsystem requirement verification closures submitted by the mission's prime contractor; audited complex technical data packages and test evidence to ensure strict compliance with NASA mission criteria
+- Architected a steerable high-gain antenna kinematic model in MATLAB to simulate dynamic antenna pointing restrictions relative to spacecraft attitude and structures
+- Optimized a MATLAB-based antenna blockage ray-tracing script, achieving a 90% reduction in execution runtime through array vectorization and targeted code refactoring
+- Wrote scripts to generate spacecraft attitude profiles to augment design reference missions to use as inputs to communication system analysis, allowing for quicker decisions on proposed concepts of operations and flight rules
+- Led the migration of legacy analysis tools from OneDrive to GitLab to support collaborative development and to follow good coding practices by ensuring changes to scripts are traceable
+
 **The Ohio State University** - Columbus, OH
 
 Senior Endpoint Engineer, Office of Technology and Digital Innovation\
-2022 – Present
+2022 – 2025
 
 - Application owner of Jamf Pro mobile device management service utilized by 18 colleges and business units
 - Improved OS device patching and upgrade experience for 1100 endpoints
