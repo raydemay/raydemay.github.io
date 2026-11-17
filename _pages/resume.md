@@ -17,6 +17,13 @@ classes: wide
 
 ## Experience
 
+**NASA Glenn Research Center** - Cleveland, OH
+
+Aerospace Engineer
+2026
+
+Aerospace engineer supporting the Communications Systems Architecture and Analytical Studies Branch
+
 **HX5** - Cleveland, OH
 
 Aerospace Engineer III  
